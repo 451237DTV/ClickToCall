@@ -10,6 +10,14 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 20px;
+/*   font-weight: bold; */
+  color: #FF9966;
+/*  margin: 40px 0px 70px;*/
+  text-align: left;
+}
+
 .sendButton {
   display: block;
   font-size: 16pt;
@@ -31,4 +39,7 @@ h1 {
 /** Set ids using widget.getElement().setId("idOfElement") */
 #closeButton {
   margin: 15px 6px 6px;
+}
+.hdg3 {
+background-image:url('title-bkgnd.png');
 }

@@ -1,0 +1,428 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*share box*/
+/*ul li a.share2-link{background:url('/images/content/themes/default/ctl_header_menu_icons.png') left -18px no-repeat;padding-left:14px;}*/
+#share2_menu ul{background:transparent url(/images/content/themes/default/share_this_page_sub_v2.png) scroll no-repeat 0 0;_background-image:expression("none");_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/content/themes/default/share_this_page_sub_v2.png',sizingMethod='crop');width:113px;height:157px;margin:0;padding:8px 0 0 0;}
+.es-ES #share2_menu ul{background:transparent url(/images/content/themes/default/share_this_page_sub_sp.png) scroll no-repeat 0 0;_background-image:expression("none");_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/content/themes/default/share_this_page_sub_v2.png',sizingMethod='crop');width:113px;height:157px;margin:0;padding:8px 0 0 0;}
+#share2_menu ul li{position:relative;width:113px;height:14px;margin:0 0 4px 0;padding:0;background:transparent;}
+#share2_menu li a{display:block;width:101px;height:14px;margin:0 6px;padding:0;color:#fff;text-indent:-9999px;background-image:url(/images/content/themes/default/share_this_page_sub_v2.png);background-repeat:no-repeat;background-position:-113px -8px;}
+.es-ES #share2_menu li a{display:block;width:101px;height:14px;margin:0 6px;padding:0;color:#fff;text-indent:-9999px;background-image:url(/images/content/themes/default/share_this_page_sub_sp.png);background-repeat:no-repeat;background-position:-113px -8px;}
+#share2_menu li#share2_close{width:13px;height:13px;margin:0 8px 0 0;float:right;}
+#share2_menu li#share2_close a{width:13px;height:13px;margin:0;background-position:-199px -8px;}
+#share2_menu li#share2_email a{background-position:-113px -23px;}
+.es-ES #share2_menu li#share2_email a{background-position:-113px -25px;}
+#share2_menu li#share2_bookmark a{background-position:-113px -41px;}
+#share2_menu li#share2_facebook a{background-position:-113px -59px;}
+#share2_menu li#share2_twitter a{background-position:-113px -77px;}
+#share2_menu li#share2_digg a{background-position:-113px -95px;}
+#share2_menu li#share2_delicious a{background-position: -113px -113px;}
+#share2_menu li#share2_buzzup a{background-position:-113px -131px;}
+#share2_menu li a:hover{background-position:-214px -8px;}
+#share2_menu li#share2_close a:hover{background-position:-300px -8px;}
+#share2_menu li#share2_email a:hover{background-position:-214px -23px;}
+.es-ES #share2_menu li#share2_email a:hover{background-position:-214px -25px;}
+#share2_menu li#share2_bookmark a:hover{background-position:-214px -41px;}
+#share2_menu li#share2_facebook a:hover{background-position:-214px -59px;}
+#share2_menu li#share2_twitter a:hover{background-position:-214px -77px;}
+#share2_menu li#share2_digg a:hover{background-position:-214px -95px;}
+#share2_menu li#share2_delicious a:hover{background-position:-214px -113px;}
+#share2_menu li#share2_buzzup a:hover{background-position:-214px -131px;}
+/* add this to the css file for positioning          #share2_menu{display:block;position:absolute;top:127px;left:181px;z-index:2000;}*/
+
+/*Social Media ONE COLUMN*/
+.social_media h2 { margin-bottom: 0px; margin-top:4px;}
+.social_media .ctm-content-module ul li { margin-top: 7px; }
+.social_media .content .link { margin-top: 7px; }
+.social_media .skin .inner-skin .body .content .image span { margin: 0; height:42px; width: 36px; }
+.social_media .skin .inner-skin .body .content .image { background: none; height: 0px; width: 36px; }
+.social_media .skin .inner-skin .body .content .body-copy { width: 188px; }
+.social_media-li a { margin-left: -82px; *margin-left: 0px; *position: relative; *left: -43px; }
+.social_media-li .content .link { *width: 145px!important; position: relative; }
+.social_media-li .skin .inner-skin .body .content { height: 40px; }
+.social_media-li .content .body-copy .tup { padding-left: 43px; position:relative; top: -9px; font-weight: bold; _margin-top: -38px; width: 188px;}
+
+/*Global Targeted Modules*/
+.ctm-static-order-module .ctm-omod-action { margin-bottom: 0px; }
+.ctm-static-order-module .ctm-omod-pricing-tup { *padding-top: 0px; }
+.ctm-static-order-module .ctm-omod-tup .ctm-omod-action-tup { padding-top: 5px; *margin-top: -5px; _margin-left: 0px; _margin-right: 0px; }
+.ctm-static-order-module .ctm-omod-line-divider { *margin-top: -12px !important; }
+.ctm-static-order-module .IEFIX { *margin-top: -15px; _margin-left: -5px;}
+.ctm-omod-tup .btn-expander span { padding-right: 18px; *padding-right: 16px; }
+
+/* Global Header Text/ record button styles */
+/*.index_pages .ctl-header .hdr-record-btn, .set_DVR .ctl-header .hdr-record-btn{ padding-top: 263px; }*/
+/*.index_pages #ctl_area_tup {padding-top:12px;}*/
+.ctl-header .hdr-record-btn {float: left; padding-top: 247px;}
+.hdr-record-btn, .hdr-record-btn .body, .hdr-record-btn li.colspan-1 .body, .hdr-record-btn .ctm-content-module ul { width: 280px;}
+.ctl-tup .hdr-record-btn .stacked h4 {font-size: 12px; font-family:Arial, Helvetica, sans-serif;font-weight:normal; color: #fff;}
+.hdr-record-btn i{letter-spacing:0.5px;}
+
+.ctl-header .yellow-CTA {color: #FFDC08; padding-top: 220px!important;float: left;}
+
+/* Icons */
+.icon_list li.customer_rep {
+	background:url(/cms2/global/icons/lg_op_blu__my_account_icon.png) no-repeat;
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/cms2/global/icons/lg_op_blu__my_account_icon.png',sizingMethod = 'crop');
+}
+.icon_list li.phone_order { 
+	background:url(/cms2/global/icons/lg_op_blu__phone_icon.png) no-repeat; 
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/cms2/global/icons/lg_op_blu__phone_icon.png',sizingMethod = 'crop');
+}
+
+
+/* Intro Paragraph */
+.intro-paragraph .custom-image-bg .content{padding:0;}
+.intro-paragraph .custom-image-bg .content .image {margin:0}
+
+/* UFC/WWE/Golf/Tennis - removing border from the intro image */
+.intro-noborder .content .image {border:none;}
+.intro-noborder .content .image img {margin-left:0px;}
+
+/*#ctl_tup .intro-paragraph, */
+#ctl_tup .intro-paragraph-padded { margin-bottom: 8px; }
+#ctl_tup .intro-paragraph h4, 
+#ctl_tup .intro-paragraph-padded h4, 
+#ctl_tup .intro-paragraph h1, 
+#ctl_tup .intro-paragraph-padded h1 {font-size:18px !important;}
+#ctl_tup.dark-theme .intro-paragraph h4, 
+#ctl_tup.dark-theme .intro-paragraph-padded h4, 
+#ctl_tup.dark-theme .intro-paragraph h1, 
+#ctl_tup.dark-theme .intro-paragraph-padded h1 { color: #fff;}
+#ctl_tup .intro-paragraph .tup, #ctl_tup .intro-paragraph-padded .tup{font-size:14px; line-height: 19px; }
+
+/*intro with padding*/
+.intro-paragraph-padded .custom-image-bg .content { padding: 12px 0px 12px 12px; }
+.intro-paragraph-padded .content .body-copy { padding-right: 25px; }
+
+/*Closing Statement */
+.closing .content .body-copy {font-size:14px;}
+.closing .content .link a {font-size:14px;}
+.closing sup, sub { font-size: 7px; bottom: 2ex; *font-size: 8px; font-weight: normal;}
+
+/*MEDIA DOWNLOAD (WALLPAPER, AIM ICONS) */
+.dl-media .thumbnail-list li .content .image { background: none; _filter:none;}
+.dl-media .thumbnail-list li .content .image span { margin-top: 0px; }
+.dl-media .stroke-solid .content .image  { background: none; }
+.dl-media .content .image  { background: none; }
+.dl-media .thumbnail-list li .content .image img { margin: 0px; }
+.dl-media .content .image img { margin-left: 0px; }
+.dl-media .thumbnail-list li .content .title, .dl-media .thumbnail-list li .content .body-copy, .dl-media .thumbnail-list li .content .link { float: left; }
+.dl-media .tup a.link { float:none; }
+.dl-media ul li { margin-top: 16px; }
+li.dl-media-title { margin-top: 0px; }
+.dl-media .thumbnail-list li .content .image img, .dl-media .thumbnail-list li .content .image { height: 38px; }
+
+/* Channel Scroller title temporary gap fix + can use with media player module + USE WITH ANY lone title */
+.channel-scroller-title, .lone-title { margin-bottom: 0px; }
+
+/* breadcrumbs overwrite arrow (for targeter breadcrumbs) */
+#ctl_header .breadcrumbs .ctm-content-module ul li.target-arrow-crumbs .title { background-position: 3px -55px; }
+
+/* STATIC ORDER MODULES */
+.static-OM-price { text-align: center; font-size: 11px; *line-height: 9px;}
+.static-OM-number {font-weight: bold; font-size: 14px;}
+.static-OM-number2 { font-size: 20px;}
+.ctm-static-order-module .ctm-omod-tup .ctm-omod-pricing-tup, .ctm-static-order-module .ctm-omod-tup .ctm-omod-action-tup { padding-top: 6px; text-align: center; }
+
+/* Class to fix superscripted position in titles */
+.sup-r { vertical-align:bottom; font-size:.7em; }
+
+/* Class to fix superscripted position */
+sup, sub { font-size: 7px; bottom: 2ex; *font-size: 8px; }
+/* Class to fix superscripted position in headers*/
+h1 sup, h1 sub, 
+h2 sup, h2 sub { font-size: .6em; *font-size: .5em; bottom: 1ex; _bottom: 2ex; font-weight: normal;  }
+h3 sup, h3 sub, 
+h4 sup, h4 sub, 
+h5 sup, h5 sub, 
+h6 sup, h6 sub { font-size: .6em; *font-size: .5em; bottom: 2ex; _bottom: 3ex; font-weight: normal;  }
+.content .link sup, .content .link sub {font-weight: normal;}
+
+/*Legal text */
+.inline-legal-dark { font-size:10px; color:#999; line-height:15px; clear: both;}
+.inline-legal-light { font-size:10px; color:#666; line-height:15px; }
+
+/* Footer class that overwrites core.css and lifts the footer by 100px */
+.ctl-footer { position:relative; }
+
+/* CTA buttons for test drive + showtime player + on demand guide */
+.media_player_cta {background: url(/cms2/global/backgrounds/bkgd_dk__divider.gif) no-repeat 50%; height: 90px; width: 295px; padding-top: 45px; margin-left: 299px; *margin-left: 49px; font-size: 14px; font-weight: bold; }
+.dark-theme .media_player_cta {background: url(/cms2/global/backgrounds/bkgd_lt__divider.gif) no-repeat 50%; height: 90px; width: 295px; padding-top: 45px; margin-left: 244px; font-size: 14px; font-weight: bold; }
+.media_cta_prospect {width: 150px; height: 85px; float: left; text-align: center;}
+.media_cta_customer {width: 130px; height: 85px; float: right; text-align: center; }
+a.order-now-media { padding-left: 30px; *padding-left: 33px; margin-top: 9px; } 
+a.activate-now-media { padding-left: 2px; margin-top:9px; } 
+.showtime_player a.activate-now-media { padding-left: 21px; }
+
+/*Spanish Override */
+
+.media_cta_customer-span {width: 140px; height: 85px; float: right; text-align: center; }
+a.order-now-media-span { padding-left: 17px; *padding-left: 20px; margin-top: 9px; }
+
+
+/* static OM  - international + sat-go + protection plan + ufc + wwe*/
+.OM-2CTA-below { color: #666; font-size: 11px; margin: 10px 0px 12px; text-align: center; }
+.OM-call-to-order { color: #666; font-size: 11px; margin: 10px 0px 25px; text-align: center; }
+.call-800 { background: transparent url(/cms2/international/static_om__Call-800.gif) no-repeat; font-size: 16px; font-weight: bold; padding: 7px 0px 0px 2px; height: 30px; margin-left: 1px;  }
+.OM-call-to-order-prospect {color:#666666;font-size:11px;margin:8px 0px;text-align:center;}
+.cricket_ticket .OM-call-to-order-prospect {color:#666666;font-size:11px;*margin:8px 0px!important; margin:6px 0px; text-align:center;}
+
+/* static OM  - international + sat-go + protection plan + ufc + wwe*/
+.call-800-prospect { background: transparent url(/cms2/international/lg_static_om__Call-800.gif) no-repeat; font-size: 16px; font-weight: bold; padding: 5px 0px 0px 2px; height: 46px; margin-left: 1px; position: relative; top: 14px;}
+.OM-final-positioning { bottom:24px; line-height:13px; position:relative; }
+
+/* RHR DVR HD promo for Golf and HD sections */
+
+.get_Started-DTV-Plus-HD u { color:#333333; font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:normal; line-height:17px; text-decoration:none; }
+.get_Started-DTV-Plus-HD .body-copy .tup ul li { background:transparent url(/images/content/themes/default/list_bullet.png) no-repeat scroll 2px 5px; margin-top:4px; padding-left:16px; }
+.get_Started-DTV-Plus-HD .ctm-content-module ul li {float:left; }
+
+
+
+/* sitewide Testimonials */
+.testimonials .quotes .content .body-copy b {font-size:18px; line-height:22px; font-family:"Trebuchet MS"; font-weight:heavy;}
+.testimonials .quotes .content .body-copy span{font-size:14px; line-height:26px;color:#999999;}
+  /*dupe*/
+  .quotes .content .body-copy b {font-size:18px; line-height:22px; font-family:"Trebuchet MS"; font-weight:heavy;}
+  .quotes .content .body-copy span{font-size:14px; line-height:26px;color:#999999;}
+
+
+/* directv plus hd dvr - Supercharge your High-Def TV. (3-col module) */
+.HD-DIRECTV-Plus-HD-DVR .ctm-content-module ul li { margin-top: 6px; background: none; }
+.HD-DIRECTV-Plus-HD-DVR .body-copy .tup ul li{ margin-top: 4px;  padding-left: 16px; background: transparent url(/images/content/themes/default/list_bullet.png) no-repeat scroll 2px 7px; }
+
+
+/* share menu 2 override ie only*/
+
+.intro-paragraph .ctm-content-module .overrideclass .body { *overflow:visible }
+.intro-paragraph .ctm-content-module .overrideclass .content{ *overflow:visible }
+
+/* My DIRECTV */
+.ppv_carousel .my_dtv_title_icon {position:absolute;top:18px;}
+.ppv_carousel .c-ppv { }
+.ppv_carousel .intro {left:62px;position: absolute;top: 29px;}
+.ppv_carousel .view {float:right; margin-top:15px!important;}
+.ppv_carousel_group .view {float:right; margin-top:0px!important;}
+
+/* CEPOD : LOYALTY : LEFT NAV LOGOS */
+.gift .thumbnail-list li .content .body-copy{float:left;}
+.gift .thumbnail-list li .content .body-copy{width:204px;}
+
+/* CEPOD : LHR : DIRECTV Cinema Carousel */
+.cepod-body #mod_119610_2 .content .ep-carousel-tup {margin-bottom:8px!important;}
+
+/* Global DOTCOM Ticker
+#ticker { position:relative; left:27px; }
+#ticker .timers { margin-left:15px; *margin-left:18px; }
+#ticker .one_first { position:relative; left:-2px; }
+#ticker div { display: inline; }
+ */
+
+/* Global E-mail Module */
+
+.global-email-module .head { background:url(/cms2/global/backgrounds/bkgd__email_module.png) no-repeat scroll center 169px transparent; }
+.es-ES .global-email-module .head {background-position:center 198px;}
+.dark-theme .global-email-module .head { background:url(/cms2/global/backgrounds/bkgd__dark_email_module.png) no-repeat scroll center 169px transparent;}
+
+
+/* DIRECTV Homepage */
+
+.homepage .dtv_business .ctm-content-module .skin {background: #ffffff url(/cms2/homepage/images/img_hp_dart.png) no-repeat scroll center 165px !important;}
+.es-ES .homepage .dtv_business .ctm-content-module .skin {background-position:center 195px !important;}
+.homepage .dtv_business .dtv_business_list .skin { background: none!important;}
+.homepage .dtv_business .ctm-content-module .head {background: none!important;}
+.homepage .no-mag .magnify, .homepage .no-mag .video { display:none; }
+.homepage .top-features .minus_separator ul {background:none!important;}
+
+.homepage_customer .dtv_business .content, .homepage_customer .dtv_news .content, .homepage_customer .my_account .content, .homepage_customer .get_answers .content{height:305px;}
+.homepage_customer .dtv_business ul .content, .homepage_customer .my_account ul .content, .homepage_customer .dtv_news ul .content, .homepage_customer .get_answers ul .content {height:auto!important;}
+.homepage_customer #ctl_header #program_title_module .damages_cta { position:relative; top:-15px; left:114px;}
+.es-ES .homepage_customer .dtv_business .content, .es-ES .homepage_customer .dtv_news .content, .es-ES .homepage_customer .my_account .content, .es-ES .homepage_customer .get_answers .content{height:335px;}
+
+.homepage_prospect .dtv_business .content, .homepage_prospect .dtv_news .content, .homepage_prospect .top_questions .content, .homepage_prospect .global-email-module .content{height:305px;}
+.homepage_prospect .dtv_business ul .content, .homepage_prospect .top_questions ul .content, .homepage_prospect .dtv_news ul .content, .homepage_prospect .global-email-module ul .content {height:auto!important;}
+.homepage_prospect .global-email-module {*overflow:visible!important;}
+.homepage #header_slide_legal .cinema-legal { right:40px;text-align:right; left:auto; color:#D6D6D6; width:905px!important;  }
+.es-ES .homepage_prospect .dtv_business .content, .es-ES .homepage_prospect .dtv_news .content, .es-ES .homepage_prospect .top_questions .content, .es-ES .homepage_prospect .global-email-module .content{height:335px;}
+.homepage_customer #header_slide_overlay{ width: 980px; height:360px; display:block; color:#333; text-decoration:none; background:url(/images/spacer.gif) transparent; }
+.homepage .dtv_news .dtv_news_list .content .title h4 {font-size:12px!important; line-height:17px!important; font-family:Arial, Helvetica, sans-serif!important;}
+
+/* Homepage Animated Image Column 
+.homepage .animated-slide .animated-slide-list .slide-image {margin-bottom:10px; border:1px solid #CCCCCC;}
+.homepage .animated-slide .animated-slide-list .slide-image img { display: block; margin-left:-3px;}
+.homepage .animated-slide .animated-slide-list #iSlideShell {position:relative; height:120px; width:214px;}
+.homepage .animated-slide .animated-slide-list #iSlideShell img {position:absolute; top:0; left:0; }*/
+
+
+/* Homepage Cinema Banner */
+.homepage .cinema_banner { margin-top:17px!important; margin-left:8px;width:918px;}
+.homepage #mod_116139_2, .homepage #mod_116028_2 {margin-bottom:10px!important;}
+.homepage .cinema_banner_list .content { padding-left:8px; }
+.homepage .cinema_banner_list .content .tup div { position:absolute;}
+.homepage .cinema_banner .cinema_banner_list .banner_rollover {position:relative!important; top:69px; left:772px; z-index:1; text-indent:0px!important;}
+.homepage .cinema_banner .cinema_banner_list .banner_button { top:103px;left:397px; width:200px;}
+.homepage .cinema_banner .cinema_banner_list .banner_video_link {font-size:12px!important; line-height:17px!important; font-weight:bold!important; width:150px; top:77px; left:518px; *top:77px;}
+.webkit .homepage .cinema_banner .cinema_banner_list .banner_video_link {top:78px;}
+.homepage .cinema_banner .cinema_banner_list .banner-legal {z-index:1; top:141px; *top:141px; left:397px; color:#ccc; font-size:10px!important; line-height:10px!important; width:260px; *text-indent:0px!important;}
+.homepage_customer .top-features { margin-bottom:0; }
+.homepage_customer .cinema_banner .cinema_banner_list .banner-browse-link {width:120px;right:265px;top:120px;}
+.homepage_customer .cinema_banner .cinema_banner_list .banner-browse-link a {font-size:12px;}
+.es-ES .homepage_customer .cinema_banner .cinema_banner_list .banner-browse-link {right:123px;}
+.es-ES .homepage .cinema_banner .cinema_banner_list .banner_button {} /* Only add the value to override, the spanish version already has the english values, no need to add position nor width */
+.es-ES .homepage .cinema_banner .cinema_banner_list .banner-legal {width:410px;}
+.es-ES .homepage .cinema_banner .cinema_banner_list .banner_video_link {left:533px;}
+#mod_118788_2, #mod_116163_2 {margin-left:0;}
+#mod_117192_2, #mod_122126_2 {margin:12px 8px 28px 0;}
+
+.homepage .cinema_banner_prospect {margin-top:0px!important;}
+.homepage .cinema_banner_prospect .cinema_banner_list .banner_button { top:105px; left:525px; width:200px; position:relative!important;}
+.homepage .cinema_banner_prospect .cinema_banner_list .banner_video_link {position:relative; font-size:12px!important; line-height:17px!important; font-weight:bold!important; width:150px; top:55px; left:680px;}
+.homepage .cinema_banner_prospect .cinema_banner_list .banner_video_link a {color:#FFF!important;}
+.homepage .cinema_banner_prospect .cinema_banner_list .banner_video_link span.arrow { background:url(/images/content/themes/default/link_arrow_white.png) no-repeat scroll 4px 50% transparent !important;}
+
+/* Damages Viral YouTube video */
+.damages_youtube .content .image img {visibility:visible!important;}
+
+
+/* Holiday Background */
+/* body { background:url(/cms2/homepage/images/bg_dtv_snowflakes.png) repeat-x scroll right top #092032 !important;} */
+
+/* My Account module*/
+.homepage .my_account .my_account_intro .body-copy {padding-left:0px!important; }
+
+/* Homepage Scroller */
+.homepage .hp-channel-scroller .ctm-html-module h2 { text-align:center; background:none; padding-bottom:0; }
+.homepage #channel-scroller { width:904px; height:70px; z-index:100; overflow:hidden; background:url(/cms2/homepage/images/bkg__Channel_Scroller.png) repeat-x; cursor:pointer;}
+.homepage #channel-scroller div { float:left; padding-top:34px; padding-right:10px; }
+.homepage .underlay-scroller { position:relative; top:-50px; z-index:1;  }
+.homepage .cs-box { height: 70px;width:55px; position:relative; z-index:100; }
+.homepage #l_box { left:-1px; background:url(/cms2/homepage/images/L_Fade.png) no-repeat top left; }
+.homepage #r_box { left:775px; background:url(/cms2/homepage/images/R_Fade.png) no-repeat top right;  }
+.homepage .logo { position:absolute;}
+
+
+#targeter-108618_2 .content .image, #targeter-108618_2 .border-gradient .content .image, #targeter-108618_2 .border-only .content .image, #targeter-108618_2 .border-solid .content .image, .bottom-gradient .content .image { border: none; }
+
+
+
+
+  .homepage  .no-vid-ad-spot .content .image .magnify,   .homepage .no-vid-ad-spot .content .image .video,   .homepage .content  .no-vid-ad-spot .image .magnify,   .homepage .content  .no-vid-ad-spot.image .video {background: none;}
+  
+.hdr_lg_tab .ctl-header {min-height:359px;}
+
+/* Facebook Background Icon */
+
+.cta-global-fb span b {background: url(/images/global/icons/icon_facebook_small.png) no-repeat!important; position:absolute; height:18px; width:18px; left:9px; top:2px; }
+
+/* Adds Separators to Non-top-of-the-page modules */
+.add_separator.colspan-2 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator.png) no-repeat 209px top transparent;}
+
+.dark-theme .add_separator.colspan-2 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator.png) no-repeat 209px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator.png)}
+
+.add_separator.colspan-3 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator_col3.png) no-repeat scroll -7px top transparent;}
+
+.dark-theme .add_separator.colspan-3 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator_col3.png) no-repeat scroll -7px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator_col3.png)}
+
+.add_separator.colspan-4 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator_col4.png) no-repeat -6px top transparent;}
+
+.dark-theme .add_separator.colspan-4 .ctm-grouping .ctm-content-list {background: url(/images/content/themes/default/skin_top_of_page_separator_col4.png) no-repeat -6px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator_col4.png)}
+
+.add_separator.colspan-2 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator.png) no-repeat 209px top transparent;}
+
+.dark-theme .add_separator.colspan-2 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator.png) no-repeat 209px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator.png)}
+
+.add_separator.colspan-3 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator_col3.png) no-repeat scroll -7px top transparent;}
+
+.dark-theme .add_separator.colspan-3 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator_col3.png) no-repeat scroll -7px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator_col3.png)}
+
+.add_separator.colspan-4 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator_col4.png) no-repeat -6px top transparent;}
+
+.dark-theme .add_separator.colspan-4 .content ul {background: url(/images/content/themes/default/skin_top_of_page_separator_col4.png) no-repeat -6px top transparent; background-image: url(/images/content/themes/dark/skin_top_of_page_separator_col4.png)}
+
+.es-ES #email_signup_module p {margin:4px 0;}
+
+
+.prospect .minus_separator .content .image .video { background: none;}
+
+
+	/*hp offer*/
+	  /* offer bow */
+  #header_flash.countdown-bar {width: 980px;  background: url(/images/2010_Q4/Best_Offer/countdown/redbar.png) no-repeat;  height: 29px; overflow: hidden; }	
+  #header_flash  #days_left {color:#333;font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:bold;height:29px;letter-spacing:-2px;width:60px; text-align:center; line-height:24px; }
+.homepage #header_flash #offer_bow {background: url(/images/2011_Q1/Best_Offer/bo_5for12_HP_tag.png) no-repeat scroll 0 0 transparent; height: 197px; margin-left: -20px; margin-top: -3px; position: absolute; width: 275px; z-index: 10;*width: 300px; *height: 200px;  }
+.homepage #header_slide_overlay #offer_bow {background: url(/images/2011_Q1/Best_Offer/bo_5for12_HP_tag.png) no-repeat scroll 0 0 transparent; height: 197px; margin-left: -93px; margin-top: -3px; position: absolute; width: 275px; z-index: 10;*width: 300px; *height: 200px;  }
+  #header_flash  #countbox {background: url(/images/2010_Q4/Best_Offer/countdown/countdown_sprites_eng.png) no-repeat 0px -58px; height:29px;padding:3px 0px 0px 315px}
+  #header_flash  #countbox-enhanced {background: url(/images/2010_Q4/Best_Offer/countdown/countdown_sprites_eng.png) no-repeat 0px -58px; height:29px;padding:3px 0px 0px 315px} 
+
+.homepage #ctl_header_menu {display: none;}
+.en-US .homepage_prospect #header_slide_legal, .homepage_prospect .ctl-header-legal {left:39px;width:60px;top:441px;}
+.es-ES .homepage_prospect #header_slide_legal, .es-ES .homepage_prospect .ctl-header-legal {left:39px; top: 441px; width:100px;}
+
+.homepage_prospect #header_slide_overlay, .homepage_prospect  a #header_slide_overlay {width: 980px; height:438px; display:block; color:#333; text-decoration:none; background:url(/images/spacer.gif) transparent;}
+/*.homepage #header_slide_overlay_container a { display: block; width: 980px; height:300px;  }*/
+#days_left a, #days_left a:hover{ text-decoration:none; color:#333;}
+
+#days_left-BOE {color:#333333;font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:bold;height:22px;letter-spacing:-1px;padding-left:4px;padding-top:6px;width:22px; text-align:center; }
+  #offer_bow-BOE { background: url(/images/2011_Q3/Best_offer/bow_BOE.png) no-repeat 0px 0px;  height: 251px; margin: 16px 0px 0px -58px; width: 58px;}
+#offer_bow-BOE-es { background: url(/images/2011_Q3/Best_offer/es_bow_BOE.png) no-repeat 0px 0px;  height: 251px; position: relative; top: 63px; left: -57px;  width: 58px;}
+  #countbox-BOE {background:url(/images/2011_Q3/Best_offer/countdown/countdown_sprites_eng.jpg) no-repeat scroll 0 -57px transparent;height:29px;padding:1px 0px 0px 365px;}
+#offer_bow-LTO { background: url(/cms2/homepage/slides/prospect/2011_Q3/tag__PRHP_092111_Thor.png) no-repeat 0px 0px;  height: 98px; width: 32px; position: relative; top: 67px; left: -32px;}
+#offer_bow-LTO-es { background: url(/cms2/homepage/slides/prospect/2011_Q3/sp_tag__PRHP_092111_Thor.png) no-repeat 0px 0px;  height: 123px; width: 39px; position: relative; top: 62px; left: -39px;}
+/* For Test and Target HP GM */
+#offer_bow-LTO_deion { background: url(/cms2/homepage/slides/prospect/2011_Q3/tag__PRHP_092111_Thor.png) no-repeat 0px 0px;  height: 98px; width: 32px; position: relative; top: 69px; left: -32px;}
+#offer_bow-tkt { background: url(/images/2011_Q3/Best_offer/nfl-go/tkt_nflst.png) no-repeat scroll 0px 0px transparent; height: 214px; width: 28px; position: relative; top: 8px; left: -28px;}
+/*#offer_bow-OES { background: url(/images/2011_Q3/Best_offer/nfl-go/tag_5for12_oes.png) no-repeat 0px 0px;  height: 105px; width: 35px; position: relative; top: 69px; left: -32px;}*/
+/*#offer_bow_CA {background: url(/cms2/offer/2011_Q4/PRHP/tag_bit_101111_Best_Offer_GM.png) no-repeat 0px 0px; height: 43px; width: 13px; position: relative; top: 23px; left: 980px;}*/
+#offer_bow_CA {background: url(/cms2/offer/2011_Q4/PRHP/tag_bit_100611_house.png) no-repeat 0px 0px; height: 62px; width: 9px; position: relative; top: 153px; left: -9px;}
+#offer_bow_CA_es {background: url(/cms2/offer/2011_Q4/PRHP/tag_bit_100611_house.png) no-repeat 0px 0px; height: 62px; width: 9px; position: relative; top: 145px; left: -9px;}
+
+ .homepage_prospect .ctl-area-tup {padding-top: 123px; }
+ .en-US .homepage_prospect .ctl-area-tup {padding-top: 123px; }
+ 
+ 
+ /* HP Slider Bow */
+.homepage #summer_offer_bow, .homepage #es_summer_offer_bow { position:relative; left:-109px; top:-86px;}
+.homepage #fb_trueblood_bow, .homepage #es_fb_trueblood_bow { position:relative; left:-75px; top:-123px;}
+
+/* HP June 2011 Sale Countdown */
+.homepage #days_left_countdown {background: url(/cms2/my_directv/movies/201106/lg__countdown_numbers_cinema.png) no-repeat scroll 0 44px transparent; height: 30px; width: 17px; position:absolute; top:-220px; left:210px;}
+.homepage #es_days_left_countdown {background: url(/cms2/my_directv/movies/201106/lg__countdown_numbers_cinema.png) no-repeat scroll 0 44px transparent; height: 30px; width: 17px; position:absolute; top:-220px; left:270px;}
+
+/*nfl countdown*/
+/* countdown */
+.homepage #countbox-nfl{ height: 35px; width: 980px; background: url(/images/2011_Q3/Best_offer/countdown/nfl-kickoff_OES.jpg) top left no-repeat;}
+.homepage #days_left {background: url(/images/2011_Q3/Best_offer/countdown/nfl_kickoff_numbers.png) no-repeat scroll 0 44px transparent; height: 35px; width: 19px; position:relative; top:-2px; left:261px;}
+.homepage #es_countbox-nfl{ height: 35px; width: 980px; background: url(/images/2011_Q3/Best_offer/countdown/es_nfl-kickoff_OES.jpg) top left no-repeat;}
+.homepage #days_left.es-days {background: url(/images/2011_Q3/Best_offer/countdown/nfl_kickoff_numbers.png) no-repeat scroll 0 44px transparent; height: 35px; width: 19px; position:relative; top:-2px; left:248px!important;}
+.homepage #timer { height: 30px; width: 980px; background: url(/cms2/homepage/slides/prospect/2011_Q3/topbar_Q3_092111.png) top left no-repeat;}
+/* For Test and Target HP GM */
+.homepage #timer_deion { height: 44px; width: 980px; background: url(/cms2/homepage/slides/prospect/2011_Q3/topbbar_Deion_countdown.jpg) top left no-repeat;} 
+.homepage #timer.timer-es { height: 29px; width: 980px; background: url(/cms2/homepage/slides/prospect/2011_Q3/sp_topbar_Q3_092111.png) top left no-repeat;}
+.homepage #ticker { margin: 0px 0px 0px 402px ;}
+.homepage .timers { float: left; margin-left: 18px; margin-top: 10px;}
+.homepage #days{ float: left; margin-top: 10px;}
+.homepage #hours.timers {}
+.homepage #minutes.timers {}
+.homepage #seconds.timers {}
+
+/* Best Offer Ever Countdown */
+.homepage #countdown_box {margin-left:408px; padding-top:5px; font-size:18px!important; line-height:19px!important; font-weight:bold;}
+.homepage .timer-es #countdown_box {margin-left:442px;}
+/* For Test and Target HP GM */
+.homepage #countdown_box_deion {margin-left:540px; padding-top:10px; font-size:20px!important; line-height:21px!important; font-weight:bold;}
+
+/*flash fairy
+#flash-fairy {position: absolute; z-index: 1; }
+#ctl_slideshow_bg { position: relative; z-index: -1;} */
+.deion { background:url(/cms2/homepage/slides/prospect/2011_Q3/hdr__PRHP_Q3_072611_Deion_Sanders-GM.jpg) no-repeat left 44px;}
+
+/* Damages banner buttons */
+.did-yourself { left: 392px;position: relative;top: 129px;}
+.one-way { float: right;position: relative;right: 388px;top: 129px;}
+.take-down {float: right; right: 265px; position: relative;top: 129px;}
+.btn_more_info {width:150px;position:relative;float:right;  right: 78px;top: 97px;}
+
+.img-spo-tag {position:absolute;z-index:100;top:21px;left:-13px;}

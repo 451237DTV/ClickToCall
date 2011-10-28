@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0065)http://www.directv.com/DTVAPP/integration/siteIntegrationComm.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">document.domain="directv.com";</script>
+<script type="text/javascript">var logjs=false;if (!window.$profile) window.$profile = function(){};window.$profile.loggers = {};var SUPPRESS_SURVEY_LIGHTBOX = false;</script>
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript">
+var DIRECTV = DIRECTV ? DIRECTV : new Object();
+DIRECTV.SiteIntegration = DIRECTV.SiteIntegration ? DIRECTV.SiteIntegration : new Object();
+DIRECTV.SiteIntegration.Comm = DIRECTV.SiteIntegration.Comm ? DIRECTV.SiteIntegration.Comm : new Object();
+DIRECTV.SiteIntegration.Comm.getData = function(url, callback) {
+var fullUrl = document.location.protocol + '//' + document.location.host + url;
+new Ajax.Request(fullUrl, {
+method: 'get',
+asynchronous: true,
+onSuccess: function(transport) {
+callback(transport.responseText);
+}
+});
+}
+
+DIRECTV.SiteIntegration.getReportingConfig = function(host) {
+return {
+accountId: 'dtvdirectvcomprod',
+userType: 'Prospect'
+}
+}
+</script>
+</head>
+<body>
+
+
+</body></html>

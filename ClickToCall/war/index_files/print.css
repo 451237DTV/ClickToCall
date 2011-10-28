@@ -1,0 +1,10 @@
+#contentDiv{overflow:visible;}
+#printTitle{display:block;}
+.print{display:none;}
+#buttonsBar,#processTabs{display:none;}
+#contentMain{width:730px;}
+#dtv_body_mid{width:710px;padding:0;margin:0;}
+#insideMid{width:690px;padding:0;margin:0;}
+.header,#processTabs{display:none;}
+.package{margin:0;padding:0;padding-top:10px;}
+.optionBlock{margin:0;padding:0;}
