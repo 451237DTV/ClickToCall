@@ -15,6 +15,7 @@ function showDlg(msg) {
 	var x = window.innerWidth/4, y = window.innerHeight/2;
 	var pos = "dialogtop:"+x+"px;dialogleft:"+y+"px;";
 
+	alert("podi");
    window.showModalDialog("/customer-service.jsp","Suresh",pos+"dialogWidth:600px;dialogHeight:660px")
 }
 </script>

@@ -21,10 +21,10 @@
 <div class="cs-content">
     
 
-
+<%String min = "10";  %>
 
 <div style="border: 1px solid white;">
-<h1>
+<h1 style="color: #33CCFF;">
 Customer Service
 </h1>
 </div>
@@ -35,59 +35,26 @@ Customer Service
 	<div id="issueSelectorSection" class="cu-eyebrow diy3anchor" >
 	
 	  <div class="cu-eb-top">
-	    <div class="cu-eb-top-left cu-eb-top-left-1"></div>
-	    <h2 class="step">Tell us more about your issue</h2>
+	    <div class="cu-eb-top-left cu-eb-top-left- "></div>
+	    <h2 class="step">Your issue</h2>
 	  </div>
 	
 	  <div class="cu-middle">
 	
 	<div id="issueSelectionWrapper" style="display: block; ">
-	
+				
 	<div class="cs-step-top-filler">&nbsp;</div>
-	
-	<div class="cs-step-no-sep cs-step-select" id="Issue2" style="display:block;filter:;">
-	  <div class="cs-step-question">
-	    Select an issue
+	<div class="cs-step-no-sep cs-step-text" id="Issue5" >
+	  <div class="cs-step-question" style="color: #33CCFF;">
+	    Short summary of the issue
 	  </div>
 	  <div class="cs-step-answer">
-	    <select id="SelIssue2">
-	      
-	    <option class="sel" value="set">&lt; Please make a selection &gt;</option><option class="sel" value="3">Where's my stuff?</option><option class="sel" value="11">Problem with an order</option><option class="sel" value="43">Returns and refunds</option><option class="sel" value="51">Change an order</option><option class="sel" value="63">Payment issues</option><option class="sel" value="74">Kindle</option><option class="sel" value="90">More order issues</option></select>
-	  </div>
-	</div>
-	
-	<div class="cs-step-no-sep cs-step-select" id="Issue3" style="display: block; height: auto; ">
-	  <div class="cs-step-question">
-	    Select issue details
-	  </div>
-	  <div class="cs-step-answer">
-	    <select id="SelIssue3">
-	    <option class="sel" value="set">&lt; Please make a selection &gt;</option><option class="sel" value="12">Damaged item</option><option class="sel" value="18">Defective item/item does not work</option><option class="sel" value="19">Missing item or parts</option><option class="sel" value="22">Wrong item or not as expected</option><option class="sel" value="28">Duplicate order</option><option class="sel" value="29">Shipping or delivery issues</option><option class="sel" value="34">Payment issues</option><option class="sel" value="42">Other issue with order received</option></select>
-	  </div>
-	</div>
-	
-	<div class="cs-step-no-sep cs-step-select" id="Issue4" style="display: block; height: auto; ">
-	  <div class="cs-step-question">
-	    Select additional details
-	  </div>
-	  <div class="cs-step-answer">
-	    <select id="SelIssue4">
-	    <option class="sel" value="set">&lt; Please make a selection &gt;</option><option class="sel" value="30">Incorrect shipping address</option><option class="sel" value="31">Shipment is late</option><option class="sel" value="32">Incorrect shipping charge</option><option class="sel" value="33">Packaging feedback</option></select>
-	  </div>
-	</div>
-	
-	<div class="cs-step-no-sep cs-step-text" id="Issue5" style="display:none;filter:;">
-	  <div class="cs-step-question">
-	    Enter short summary of issue
-	  </div>
-	  <div class="cs-step-answer">
-	    <input id="SelIssue5" type="text" style="width:390px;" autocomplete="off" maxlength="60">
+	    <input id="SelIssue5" type="text" style="width:390px;" maxlength="100">
 	  </div>
 	</div>
 		
 	</div>
 	
-	<div class="cs-step-sep"></div>
   <div class="cu-eb-bottom">
     <div class="cu-eb-bottom-left"></div>
   </div>
@@ -124,7 +91,7 @@ Customer Service
           </div>
           
           <div id="cuPhoneJsEnabled" style="">
-            <h3>Have us call you right now about:</h3>
+            <h3 style="color: #33CCFF;">Have us call you right now about:</h3>
  
 
 
@@ -191,14 +158,10 @@ Customer Service
     <div class="c2c-form-row c2c-form-row-callme-button">
     	<span class="c2c-callme-button-spacer"></span>
     	<a href="https://www.directv.com/contact-us/general-questions.html?email=sureshbh%40hotmail.com&type=&token=#" class="c2c-callme-button">
-    		<img src="./customer-service_files/button_call_me_now._V187864071_.gif" width="89" alt="Call me now" height="22" border="0">
+    		<img src="./customer-service_files/button_call_me_now.gif" width="89" alt="Call me now" height="22" border="0">
     	</a>
     	
-    	<span class="c2c-callme-whentocall-buttons">
- 		   	<a href="https://www.directv.com/contact-us/general-questions.html?email=sureshbh%40hotmail.com&type=&token=#" class="c2c-callme-later-button c2c-callme-in-5min-button">
-    			<img src="./customer-service_files/button_call_me_in_5._V187864071_.gif" width="128" alt="Call me in 5 minutes" height="22" border="0">
-    		</a>
-    	</span>    
+    	<span style="vertical-align:top"> in <%=min %>&nbsp;minutes</span>
     	<span id="c2cBenefitMouse">
         	<a href="https://www.directv.com/contact-us/general-questions.html?email=sureshbh%40hotmail.com&type=&token=#" class="cs-hover-only-link" id="c2cBenefitsLink">What are the benefits?
         	</a>
